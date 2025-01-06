@@ -1,0 +1,32 @@
+{
+  "name": "gerenciador_podcast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start:dev": "tsx src/server.ts",
+    "start:watch": "tsx  watch src/server.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run dist && node/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanMarinho809/GERENCIADOR_PODCAST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RenanMarinho809/GERENCIADOR_PODCAST/issues"
+  },
+  "homepage": "https://github.com/RenanMarinho809/GERENCIADOR_PODCAST#readme",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
